@@ -81,5 +81,5 @@ if (DB_JSON) {
 }
 
 config.debug = DB_DEBUG === "1" || DB_DEBUG.toLowerCase() === "true";
-
+console.log("db config ", config);
 module.exports = config;
