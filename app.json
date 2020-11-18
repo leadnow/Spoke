@@ -188,14 +188,5 @@
       "value": "1"
     }
   },
-  "addons": [
-    "heroku-postgresql:hobby-dev",
-    {
-      "plan": "heroku-redis:hobby-dev",
-      "options": {
-        "maxmemory-policy": "volatile-lru"
-      }
-    },
-    "mailgun:starter"
-  ]
+  "addons": []
 }
